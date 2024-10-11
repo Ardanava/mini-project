@@ -1,6 +1,6 @@
 <main class="main">
 
-    <!-- Page Title -->
+    <!-- Judul Halaman -->
     <div class="page-title position-relative">
       <div class="container d-lg-flex justify-content-between align-items-center">
         <h1 class="mb-2 mb-lg-0">Hasil Penyaringan Kategori</h1>
@@ -12,11 +12,11 @@
         </nav>
       </div>
     </div>
-    <!-- End Page Title -->
+    <!-- Akhir Judul Halaman -->
     <div class="container">
       <div class="row">
         <div class="col-lg-8">
-          <!-- Blog Posts Section -->
+          <!-- Bagian Hasil Filter Kategori -->
           <section id="blog-posts" class="blog-posts section">
             <div class="container">
               <div class="row gy-4">
@@ -44,15 +44,14 @@
                   </article>                  
                 </div>
                 <?php } ?>
-                <!-- End post list item -->
               </div>
             </div>
-          </section><!-- /Blog Posts Section -->
+          </section><!-- Akhir Bagian Hasil Filter Kategori -->
         </div>
 
         <div class="col-lg-4 sidebar">
           <div class="widgets-container">
-            <!-- Search Widget -->
+            <!-- Fitur Pencarian -->
             <div class="search-widget widget-item">
               <h3 class="widget-title">Cari Berita</h3>
               <form action="<?= base_url('cari') ?>" method="POST">
@@ -61,9 +60,9 @@
                 <button type="submit" title="Search"><i class="bi bi-search"></i></button>
               </form>
             </div>
-            <!--/Search Widget -->
+            <!-- Akhir Fitur Pencarian -->
 
-            <!-- Recent Posts Widget -->
+            <!-- Bagian Artikel Populer -->
             <div class="recent-posts-widget widget-item">
               <h3 class="widget-title">Recent Posts</h3>
               <?php foreach ($populer as $pop) { ?>
@@ -75,11 +74,10 @@
                     </div>
                 </div>
                 <?php } ?>
-              <!-- End recent post item-->
             </div>
-            <!--/Recent Posts Widget -->
+            <!-- Akhir Bagian Artikel Populer -->
 
-            <!-- Tags Widget -->
+            <!-- Bagian Kategori -->
             <div class="tags-widget widget-item">
               <h3 class="widget-title">Kategori Berita</h3>
               <ul>
@@ -88,13 +86,10 @@
                 <?php } ?>
               </ul>
             </div>
-            <!--/Tags Widget -->
+            <!-- Akhir Bagian Kategori -->
 
           </div>
-
         </div>
-
       </div>
     </div>
-
   </main>

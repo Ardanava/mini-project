@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title><?= $title ?></title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
 
   <!-- Favicons -->
   <link href="/assets/img/favicon.png" rel="icon">
@@ -23,29 +20,24 @@
   <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="/assets/css/main.css" rel="stylesheet">
-
 </head>
-<body class="category-page">
 
+<body class="category-page">
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container position-relative d-flex align-items-center justify-content-between">
-
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <h1 class="sitename">WBLnews</h1>
       </a>
-
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="<?= base_url() ?>">Home</a></li>          
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
       <div class="header-social-links">
         <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
-
     </div>
   </header>
